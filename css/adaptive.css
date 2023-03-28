@@ -1,9 +1,29 @@
-@media screen and(min-width: 768px) {
+@media (max-width: 768px) {
   h1{
 
   }
   h3{}
   p{
+  }
+  /*.hero-img{*/
+  /*  width: 40vw;*/
+  /*}*/
+  /*.hero-block{*/
+  /*  flex-wrap: nowrap;*/
+  /*}*/
+  .solution-container img:hover{
+    scale: 1;
+    transition: all 0.2s ease-in-out;
+  }
 
+}
+@media (max-width: 1024px) {
+  .nav{
+    display: none;
+  }
+  .scroll{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 }
