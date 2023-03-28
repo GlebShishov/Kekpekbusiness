@@ -30,8 +30,8 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="KekPek">
   <meta property="og:description" content="Сервис анкетирование вашей аудитории">
-  <meta property="og:image" content="#">
-  <meta property="og:url" content="#">
+  <meta property="og:image" content="img/thumbnail.jpg">
+  <meta property="og:url" content="img/thumbnail.jpg">
   <meta property="og:site_name" content="Опросы и анкеты">
   <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -45,20 +45,37 @@
           <a href="#" class="nav-button">Тест сегодня</a>
         </li>
         <li>
-          <a href="#" class="nav-button">Возможности</a>
+          <a href="#solutions" class="nav-button">Возможности</a>
         </li>
         <li>
-          <a href="#" class="nav-button">Реклама</a>
+          <a href="index.html" class="nav-button">Реклама</a>
         </li>
         <li>
-          <a href="#faq" class="nav-button">отзывы</a>
+          <a href="#gray" class="nav-button">Отзывы</a>
         </li>
         <li>
           <a href="#faq" class="nav-button">Частые вопросы</a>
         </li>
       </ul>
-      <a href="#" class="button button-fill">Стартануть</a>
+      <a href="#" class="button button-fill nav-primary-button">Стартануть</a>
     </header>
+    <ul class="nav-mobile">
+      <li>
+        <a href="#" class="nav-button">Тест сегодня</a>
+      </li>
+      <li>
+        <a href="#solutions" class="nav-button">Возможности</a>
+      </li>
+      <li>
+        <a href="index.html" class="nav-button">Реклама</a>
+      </li>
+      <li>
+        <a href="#gray" class="nav-button">Отзывы</a>
+      </li>
+      <li>
+        <a href="#faq" class="nav-button">Частые вопросы</a>
+      </li>
+    </ul>
     <div class="hero-block">
       <div class="block">
         <img src="img/phone.png" class="hero-img box" alt="главная картинка">
@@ -67,11 +84,11 @@
         <div class="hero-info-container">
           <h2>kekpek.fun</h2>
           <span>Сервис<br> анкетирование<br>аудитории</span>
-          <ul>
-            <li><a href="https://kekpek.fun/" target="_blank">Ежедневник</a></li>
-            <li><a href="buisness.html">Для бизнеса</a></li>
-            <li><a href="index.html">Реклама</a></li>
-          </ul>
+          <div class="hero-buttons-container">
+            <a href="https://kekpek.fun/" target="_blank" class="text-button">Ежедневник</a>
+            <a href="buisness.html" class="text-button">Для бизнеса</a>
+            <a href="index.html" class="text-button">Реклама</a>
+          </div>
         </div>
       </div>
     </div>
@@ -83,23 +100,35 @@
       <h1>Партнёры</h1>
       <p>Нам доверяют компании разных отраслей</p>
     </div>
-    <div class="partners-container">
-      <a href="#" class="partner">
-        <img src="img/partners/bridge.svg" class="partner-logo" alt="форум современных технологий">
-      </a>
-      <a href="#" class="partner">
-        <img src="img/partners/bridge.svg" class="partner-logo" alt="форум современных технологий">
-      </a>
-      <a href="#" class="partner">
-        <img src="img/partners/bridge.svg" class="partner-logo" alt="форум современных технологий">
-      </a>
-      <a href="#" class="partner">
-        <img src="img/partners/bridge.svg" class="partner-logo" alt="форум современных технологий">
-      </a>
+      <div class="scroll">
+        <div class="partners-container">
+          <a href="#" class="partner">
+            <img src="img/partners/bridge.svg" class="partner-logo" alt="форум современных технологий" title="форум современных технологий">
+          </a>
+          <a href="#" class="partner">
+            <img src="img/partners/aldes.svg" class="partner-logo" alt="aldes" title="маркетинговое агенство">
+          </a>
+          <a href="#" class="partner">
+            <img src="img/partners/dag.svg" class="partner-logo" alt="dag" title="международная выставка искусства">
+          </a>
+          <a href="#" class="partner">
+            <img src="img/partners/emirald.svg" class="partner-logo" alt="emirald" title="AR стартап">
+          </a>
+          <a href="#" class="partner">
+            <img src="img/partners/era.svg" class="partner-logo" alt="era" title="продюссерский центр">
+          </a>
+          <a href="#" class="partner">
+            <img src="img/partners/guru.svg" class="partner-logo" alt="gur" title="сообщество экспертов">
+          </a>
+          <a href="#" class="partner">
+            <img src="img/partners/metancy.svg" class="partner-logo" alt="metancy" title="маркетинговое агенство метавсленных">
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<section class="forkey">
+<section class="forkey" id="solutions">
   <div class="container solution-container">
     <div class="block solution-info-container">
       <h2>Опросы под ключ</h2>
@@ -137,43 +166,45 @@
     <div class="section-headline center">
       <h1>Нам доверяют</h1>
     </div>
-    <div class="scroll center">
-      <div class="review-card">
-        <div class="review-info">
-          <span>Правительство</span>
-          <p>Сервис помог проанализировать аудиторию для внедрения новых стратегических продуктов.</p>
-        </div>
-        <div class="review-person">
-          <img src="img/reviews/1.png" class="review-person-avatar" alt="человек-1">
-          <div class="review-person-info">
-            <span>Яков Мельников</span>
-            <span>Вице-президент «Международного Альянса BRICS» по IT и PM экспертного совета Минцифры РФ по направлению «Внедрение ИИ в РФ</span>
+    <div class="scroll">
+      <div class="feedback-scroll-content">
+        <div class="review-card">
+          <div class="review-info">
+            <span>Правительство</span>
+            <p>Сервис помог проанализировать аудиторию для внедрения новых стратегических продуктов. Сервис помог проанализировать аудиторию для внедрения новых стратегических продуктов.</p>
+          </div>
+          <div class="review-person">
+            <img src="img/reviews/1.png" class="review-person-avatar" alt="человек-1">
+            <div class="review-person-info">
+              <span>Яков Мельников</span>
+              <span>Вице-президент «Международного Альянса BRICS» по IT и PM экспертного совета Минцифры РФ по направлению «Внедрение ИИ в РФ</span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="review-card">
-        <div class="review-info">
-          <span>Правительство</span>
-          <p>Сервис помог проанализировать аудиторию для внедрения новых стратегических продуктов.</p>
-        </div>
-        <div class="review-person">
-          <img src="img/reviews/1.png" class="review-person-avatar" alt="человек-2">
-          <div class="review-person-info">
-            <span>Яков Мельников</span>
-            <span>Вице-президент «Международного Альянса BRICS» по IT и PM экспертного совета Минцифры РФ по направлению «Внедрение ИИ в РФ</span>
+        <div class="review-card">
+          <div class="review-info">
+            <span>Правительство</span>
+            <p>Сервис помог проанализировать аудиторию для внедрения новых стратегических продуктов.</p>
+          </div>
+          <div class="review-person">
+            <img src="img/reviews/1.png" class="review-person-avatar" alt="человек-2">
+            <div class="review-person-info">
+              <span>Яков Мельников</span>
+              <span>Вице-президент «Международного Альянса BRICS» по IT и PM экспертного совета Минцифры РФ по направлению «Внедрение ИИ в РФ</span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="review-card">
-        <div class="review-info">
-          <span>Правительство</span>
-          <p>Сервис помог проанализировать аудиторию для внедрения новых стратегических продуктов.</p>
-        </div>
-        <div class="review-person">
-          <img src="img/reviews/1.png" class="review-person-avatar" alt="человек-3">
-          <div class="review-person-info">
-            <span>Яков Мельников</span>
-            <span>Вице-президент «Международного Альянса BRICS» по IT и PM экспертного совета Минцифры РФ по направлению «Внедрение ИИ в РФ</span>
+        <div class="review-card">
+          <div class="review-info">
+            <span>Правительство</span>
+            <p>Сервис помог проанализировать аудиторию для внедрения новых стратегических продуктов.</p>
+          </div>
+          <div class="review-person">
+            <img src="img/reviews/1.png" class="review-person-avatar" alt="человек-3">
+            <div class="review-person-info">
+              <span>Яков Мельников</span>
+              <span>Вице-президент «Международного Альянса BRICS» по IT и PM экспертного совета Минцифры РФ по направлению «Внедрение ИИ в РФ</span>
+            </div>
           </div>
         </div>
       </div>
@@ -283,3 +314,4 @@
 </footer>
 </body>
 </html>
+
