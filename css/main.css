@@ -532,10 +532,11 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 2rem;
+  padding: clamp(16px,2vw,2rem);
   gap: 23px;
-  width: 370px;
+  /*width: clamp(200px,20vw,370px);*/
   height: 300px;
+  max-width: 370px;
 
   background: #FFFFFF;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -555,6 +556,7 @@ footer {
 
   flex-direction: row;
   align-items: flex-start;
+  flex-wrap: nowrap;
 
   /* Inside auto layout */
 
