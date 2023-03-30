@@ -711,7 +711,7 @@ summary:focus {
   border-radius: 100px;
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  /*gap: 1rem;*/
   justify-content: space-between;
   /*width: 100%;*/
   /*max-width: 1000px;*/
@@ -730,7 +730,7 @@ header img {
 
 .nav {
   display: flex;
-  /*gap: 2rem;*/
+  /*gap: 10%;*/
 }
 
 .nav-logo {
@@ -742,7 +742,7 @@ header img {
   text-decoration: none;
   word-break: normal;
   font-size: clamp(1rem, 2vw, 18px);
-  padding: 1rem;
+  padding: 12px;
   border-radius: 12px;
   display: flex;
 
