@@ -15,7 +15,7 @@
   "name": "Сервис анкетирования аудитории",
   "icons": [
     {
-      "src": "/images/icons.png",
+      "src": "icons.png",
       "type": "image/png",
       "sizes": "512x512"
     }
