@@ -1,15 +1,15 @@
-// {
-//   "short_name": "",
-//   "name": "",
-//   "icons": [{
-//     "src": "icon.png",
-//     "type": "image/png",
-//     "sizes": "192x192"
-//   }],
-//   "start_url": "/?utm_source=homescreen",
-//   "background_color": "#fafafa",
-//   "theme_color": "#fafafa"
-// }
+{
+   "short_name": "",
+   "name": "",
+   "icons": [{
+     "src": "icon.png",
+     "type": "image/png",
+     "sizes": "192x192"
+   }],
+   "start_url": "/?utm_source=homescreen",
+  "background_color": "#fafafa",
+   "theme_color": "#fafafa"
+ }
 {
   "short_name": "Kekpek.fun",
   "name": "Сервис анкетирования аудитории",
@@ -25,33 +25,33 @@
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#3367D6",
+  "theme_color": "#fafafa",
   "shortcuts": [
     {
       "name": "Kekpek.fun Сервис анкетирования аудитории",
       "short_name": "Kekpek.fun",
       "description": "Сервис анкетирования аудитории",
       "url": "/today?source=pwa",
-      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
     },
     {
       "name": "Kekpek.fun Сервис анкетирования аудитории",
       "short_name": "Kekpek.fun",
       "description": "Сервис анкетирования аудитории",
       "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
     }
   ],
   "description": "Сервис анкетирования аудитории",
   "screenshots": [
     {
-      "src": "/images/screenshot1.png",
+      "src": "icon.png",
       "type": "image/png",
       "sizes": "540x720",
       "form_factor": "narrow"
     },
     {
-      "src": "/images/screenshot2.jpg",
+      "src": "icon.png",
       "type": "image/jpg",
       "sizes": "720x540",
       "form_factor": "wide"
