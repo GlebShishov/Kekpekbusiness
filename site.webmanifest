@@ -7,42 +7,4 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "id": "/?source=pwa",
-  "start_url": "/?source=pwa",
-  "background_color": "#3367D6",
-  "display": "standalone",
-  "scope": "/",
-  "theme_color": "#fafafa",
-  "shortcuts": [
-    {
-      "name": "Kekpek.fun Сервис анкетирования аудитории",
-      "short_name": "Kekpek.fun",
-      "description": "Сервис анкетирования аудитории",
-      "url": "/today?source=pwa",
-      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Kekpek.fun Сервис анкетирования аудитории",
-      "short_name": "Kekpek.fun",
-      "description": "Сервис анкетирования аудитории",
-      "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
-    }
-  ],
-  "description": "Сервис анкетирования аудитории",
-  "screenshots": [
-    {
-      "src": "icon.png",
-      "type": "image/png",
-      "sizes": "540x720",
-      "form_factor": "narrow"
-    },
-    {
-      "src": "icon.png",
-      "type": "image/jpg",
-      "sizes": "720x540",
-      "form_factor": "wide"
-    }
-  ]
 }
