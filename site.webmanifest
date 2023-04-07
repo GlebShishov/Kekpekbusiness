@@ -1,10 +1,7 @@
 {
   "short_name": "Kekpek.fun",
   "name": "Сервис анкетирования аудитории",
-  "icons": [
-    {
-      "src": "icon.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+   "src": "icon.png",
+   "type": "image/png",
+   "sizes": "512x512"
 }
