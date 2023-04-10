@@ -450,6 +450,7 @@ footer {
 
 .solution-img {
   width: 100%;
+  height: auto;
   max-width: 500px;
   background: #A3A3A3;
   border: 1px solid #A0A0A0;
